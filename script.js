@@ -1,5 +1,7 @@
-const button = document.querySelector(".hero-btn");
+document.querySelector(".hero-btn").addEventListener("click",function(e){
 
-button.addEventListener("click", function () {
-    alert("Welcome to Cerso!");
+e.preventDefault();
+
+alert("🎉 Welcome to Cerso!\nStart your learning journey today.");
+
 });
